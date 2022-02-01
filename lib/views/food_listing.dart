@@ -7,7 +7,7 @@ import 'package:food_app_v01/models/food.dart';
 
 class FoodListing extends StatelessWidget {
   Category? category;
-  static const String routeName = '/FoodListing';
+  static const String routeName = '/food_listing';
   FoodListing({Key? key, this.category}) : super(key: key);
 
   List<Food> getListFoodByCategory() {
@@ -57,19 +57,54 @@ class FoodListing extends StatelessWidget {
               ),
               Expanded(
                   child: Container(
-                padding: const EdgeInsets.only(top: 5),
+                padding: const EdgeInsets.only(top: 10),
                 child: ListView.builder(
                   itemBuilder: (context, index) {
                     Food food = listFoodByCategory[index];
-                    return Container(
-                      padding: const EdgeInsets.only(bottom: 5),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Center(
-                          child: FadeInImage.assetNetwork(
-                              placeholder: 'assets/images/icon.png',
-                              image: food.urlName ?? ''),
-                        ),
+                    return InkWell(
+                      onTap: () {
+                        stdout.writeln('ton');
+                      },
+                      child: Stack(
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.only(bottom: 10),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(10),
+                              child: Center(
+                                child: FadeInImage.assetNetwork(
+                                    placeholder: 'assets/images/icon.png',
+                                    image: food.urlName ?? ''),
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                              top: 10,
+                              left: 10,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                    border: Border.all(
+                                        width: 1, color: Colors.white),
+                                    borderRadius: BorderRadius.circular(5),
+                                    color: Colors.black.withOpacity(0.3)),
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 5, horizontal: 5),
+                                child: Row(
+                                  children: [
+                                    const Icon(
+                                      Icons.timer,
+                                      color: Colors.white,
+                                      size: 25,
+                                    ),
+                                    Text(
+                                      '${food.duration.inMinutes} minutes',
+                                      style:
+                                          Theme.of(context).textTheme.bodyText1,
+                                    )
+                                  ],
+                                ),
+                              ))
+                        ],
                       ),
                     );
                   },

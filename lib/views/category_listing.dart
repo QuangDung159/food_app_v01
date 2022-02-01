@@ -3,7 +3,7 @@ import 'package:food_app_v01/fake_data.dart';
 import 'package:food_app_v01/views/category_item.dart';
 
 class CategoryListing extends StatelessWidget {
-  static const String routeName = '/CategoryListing';
+  static const String routeName = '/category_listing';
   const CategoryListing({Key? key}) : super(key: key);
 
   @override

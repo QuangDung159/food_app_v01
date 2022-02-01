@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_app_v01/models/category.dart';
 import 'package:food_app_v01/views/category_listing.dart';
+import 'package:food_app_v01/views/food_detail.dart';
 import 'package:food_app_v01/views/food_listing.dart';
 
 class MyApp extends StatefulWidget {
@@ -41,7 +41,8 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       initialRoute: '/',
       routes: {
         FoodListing.routeName: (context) => FoodListing(),
-        CategoryListing.routeName: (contex) => const CategoryListing()
+        CategoryListing.routeName: (contex) => const CategoryListing(),
+        FoodDetail.routeName: (context) => FoodDetail()
       },
       theme: ThemeData(
           fontFamily: 'Montserrat',
@@ -50,14 +51,15 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
                   color: Colors.white,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
-              bodyText2: const TextStyle(color: Colors.grey),
+              bodyText2: const TextStyle(
+                  color: Colors.grey,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
               headline1: const TextStyle(
-                  color: Colors.white,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
               headline2: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.bold))),
       home: const CategoryListing(),
     );

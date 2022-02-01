@@ -24,79 +24,79 @@ List<Food> FAKE_FOOD = [
   Food(
       name: 'Món 1',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa', 'Đậu hủ thúi'],
       categoryId: 1,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 11',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 1,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 2',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 1,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 3',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 1,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 4',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 2,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 5',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 2,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 6',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 3,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 7',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 1,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 8',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 4,
       complexity: Complexity.simple,
       urlName:
           'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.6435-9/83167375_2626073120839225_7822897013967552512_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_ohc=hMi4T8zL20wAX9kwcWY&_nc_ht=scontent.fsgn3-1.fna&oh=00_AT99DzkbFIrU6Lgbemihpfi8li4Z9LYD0koaWkeTam-Yyw&oe=621F1D37'),
-          Food(
+  Food(
       name: 'Món 9',
       duration: const Duration(minutes: 12),
-      listIngredient: ['Trứng, sữa'],
+      listIngredient: ['Trứng', 'sữa'],
       categoryId: 1,
       complexity: Complexity.simple,
       urlName:

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app_v01/models/category.dart';
+import 'package:food_app_v01/views/food_listing.dart';
 
 class CategoryItem extends StatelessWidget {
   Category categoryItem;
@@ -12,13 +13,7 @@ class CategoryItem extends StatelessWidget {
     return InkWell(
       splashColor: Colors.transparent.withOpacity(0.8),
       onTap: () {
-        // Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-        //   return FoodListing(
-        //     category: categoryItem,
-        //   );
-        // }));
-
-        Navigator.pushNamed(context, '/FoodListing',
+        Navigator.pushNamed(context, FoodListing.routeName,
             arguments: {'category': categoryItem});
       },
       child: Container(
